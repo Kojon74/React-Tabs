@@ -1,0 +1,16 @@
+body {
+  background-color: #eee;
+  color: #222;
+}
+
+.title {
+  width: fit-content;
+  margin: 60px auto;
+  font-size: 40px;
+}
+
+.underline {
+  width: 50%;
+  margin: 10px auto;
+  border-bottom: 4px solid #2caeba;
+}

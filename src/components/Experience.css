@@ -1,0 +1,26 @@
+.experience {
+  margin: 0 0 0 30px;
+}
+
+.experience-title {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.company {
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  background-color: #ccc;
+  color: #777;
+  border-radius: 3px;
+}
+
+.dates {
+  color: #888;
+  font-weight: 400;
+}
+
+.duty {
+  margin-top: 20px;
+}

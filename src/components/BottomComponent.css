@@ -1,0 +1,49 @@
+.bottom-component {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.left-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  width: 150px;
+  margin: 10px 0 10px;
+  border: none;
+  box-sizing: content-box;
+  font-size: 20px;
+  text-align: left;
+}
+
+.tabs-active {
+  border-right: 5px solid #2caeba;
+}
+
+.tabs:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .bottom-component {
+    flex-direction: column;
+  }
+
+  .left-tabs {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .tabs {
+    width: fit-content;
+  }
+
+  .tabs-active {
+    width: fit-content;
+    border-right: 0 !important;
+    border-bottom: 5px solid #2caeba;
+    margin-bottom: 5px;
+  }
+}
